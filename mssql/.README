@@ -1,0 +1,8 @@
+
+
+sqlcmd -S localhost,14332 -U sa -P 'P4ssw0rdMs5QL'
+
+RESTORE DATABASE IMS_SIAP
+FROM DISK = N'/var/opt/mssql/temp_bu/DB_SIAP_SIAR_27102025/IMS_SIAP_backup_2025_10_27_223002_6810372.bak'
+WITH REPLACE;
+GO
