@@ -6,6 +6,7 @@ data/
 log/
 temp_bu/
 secrets/
+tailscale-state/
 
 # Database backups
 *.sql
