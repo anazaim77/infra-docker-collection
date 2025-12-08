@@ -27,3 +27,7 @@ tailscale-state/
 # OS files
 .DS_Store
 Thumbs.db 
+
+# Jellyfin
+jellyfin/cache
+jellyfin/config
