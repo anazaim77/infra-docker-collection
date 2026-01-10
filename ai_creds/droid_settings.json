@@ -1,0 +1,174 @@
+{
+  "logoAnimation": "off",
+  "ideExtensionPromptedAt": {
+    "vscode": 1767413072708,
+    "cursor": 1767416074190
+  },
+  "customModels": [
+    {
+      "model": "gemini-2.5-pro",
+      "id": "custom:AG-AI-Google-gemini-2.5-pro-0",
+      "index": 0,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "AG-AI-Google gemini-2.5-pro",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "id": "custom:AG-AI-Google-gemini-2.5-flash-1",
+      "index": 1,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "AG-AI-Google gemini-2.5-flash",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "gemini-2.5-flash-lite",
+      "id": "custom:AG-AI-Google-gemini-2.5-flash-lite-2",
+      "index": 2,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "AG-AI-Google gemini-2.5-flash-lite",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "id": "custom:AG-AI-Google-gemini-3-flash-preview-3",
+      "index": 3,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "AG-AI-Google gemini-3-flash-preview",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "gemini-3-pro-preview",
+      "id": "custom:AG-AI-Google-gemini-3-pro-preview-4",
+      "index": 4,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "AG-AI-Google gemini-3-pro-preview",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "antigravity/gemini-3-pro-preview",
+      "id": "custom:AG-LLM-Google-gemini-3-pro-preview-5",
+      "index": 5,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "AG-LLM-Google gemini-3-pro-preview",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "gemini-claude-sonnet-4-5",
+      "id": "custom:AG-AI-Claude-gemini-claude-sonnet-4-5-6",
+      "index": 6,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "AG-AI-Claude gemini-claude-sonnet-4-5",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "gemini-claude-sonnet-4-5-thinking",
+      "id": "custom:AG-AI-Claude-gemini-claude-sonnet-4-5-thinking-7",
+      "index": 7,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "AG-AI-Claude gemini-claude-sonnet-4-5-thinking",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "gemini-claude-opus-4-5-thinking",
+      "id": "custom:AG-AI-Claude-gemini-claude-opus-4-5-thinking-8",
+      "index": 8,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "AG-AI-Claude gemini-claude-opus-4-5-thinking",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "antigravity/claude-sonnet-4-5",
+      "id": "custom:AG-LLM-Claude-gemini-claude-sonnet-4-5-thinking-9",
+      "index": 9,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "AG-LLM-Claude gemini-claude-sonnet-4-5-thinking",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "antigravity/claude-opus-4-5",
+      "id": "custom:AG-LLM-Claude-gemini-claude-opus-4-5-thinking-10",
+      "index": 10,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "AG-LLM-Claude gemini-claude-opus-4-5-thinking",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "gpt-5.2",
+      "id": "custom:GPT-AI-gpt-5.2-11",
+      "index": 11,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "GPT-AI gpt-5.2",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "gpt-5.2-codex",
+      "id": "custom:GPT-AI-gpt-5.2-codex-12",
+      "index": 12,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "GPT-AI gpt-5.2-codex",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "gpt-5.1-codex-mini",
+      "id": "custom:GPT-AI-gpt-5.1-codex-mini-13",
+      "index": 13,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "GPT-AI gpt-5.1-codex-mini",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "gpt-5.1-codex-max",
+      "id": "custom:GPT-AI-gpt-5.1-codex-max-14",
+      "index": 14,
+      "baseUrl": "https://ai-proxy.fajaryae.my.id/v1",
+      "apiKey": "dummy",
+      "displayName": "GPT-AI gpt-5.1-codex-max",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "model": "glm-4.6",
+      "id": "custom:Z.AI-plan-glm-4.6-15",
+      "index": 15,
+      "baseUrl": "https://api.z.ai/api/coding/paas/v4",
+      "apiKey": "dummy",
+      "displayName": "Z.AI-plan glm-4.6",
+      "noImageSupport": false,
+      "provider": "openai"
+    }
+  ],
+  "sessionDefaultSettings": {
+    "model": "custom:GPT-AI-gpt-5.2-codex-12",
+    "reasoningEffort": "none",
+    "autonomyMode": "auto-high"
+  }
+}

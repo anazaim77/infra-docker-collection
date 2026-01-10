@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "env": {
+        "CONTEXT7_API_KEY": "ctx7sk-c1953274-42ee-489f-90fa-eaa31aa07615"
+      },
+      "disabled": false
+    },
+    "getgather": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "http://127.0.0.1:23456/mcp",
+        "--allow-http"
+      ],
+      "disabled": false
+    }
+  }
+}
