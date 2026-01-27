@@ -16,6 +16,7 @@ services:
     volumes:
       - ./data/mysql:/var/lib/mysql
       - ./init-scripts:/docker-entrypoint-initdb.d
+      - ./db_backups:/backups
     networks:
       - mysql_bridge
     healthcheck:
