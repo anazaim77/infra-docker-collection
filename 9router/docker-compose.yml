@@ -1,0 +1,24 @@
+services:
+  9router:
+    image: 9router:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: 9router
+    restart: unless-stopped
+    ports:
+      - "20128:20128"
+    environment:
+      DATA_DIR: /app/data
+      PORT: "20128"
+      HOSTNAME: 0.0.0.0
+    volumes:
+      - ${HOME}/.9router:/app/data
+    mem_limit: 256m
+    mem_reservation: 128m
+    cpus: 0.5
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
